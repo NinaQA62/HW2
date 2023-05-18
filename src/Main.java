@@ -4,8 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int amount = 25450;
         int rub = 20;
-        int miles = 1;
-        System.out.println("С покупки билета начислено милль:");
-        System.out.println(amount / rub);
+        int miles = amount / rub;
+        System.out.println("С покупки билета начислено милль: " + (miles));
     }
     }
