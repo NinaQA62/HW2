@@ -5,6 +5,6 @@ public class Main {
         int amount = 25450;
         int rub = 20;
         int miles = amount / rub;
-        System.out.println("С покупки билета начислено милль: " + miles);
+        System.out.println("С покупки билета начислено мили:" + miles);
     }
 }
